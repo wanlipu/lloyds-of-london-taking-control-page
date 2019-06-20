@@ -1,0 +1,317 @@
+ul{
+	list-style-type: none;
+}
+
+body{
+	margin: 0 auto;
+}
+
+
+.container ul{
+	display: flex;
+}
+
+.container .top-header,
+.container .subtop-header{
+  margin: 0 auto 20px auto;
+  width: 1080px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0;
+  white-space: nowrap;
+}
+
+
+
+.container .top-header li,
+.container .subtop-header li{
+	margin: 5px 0px;
+}
+
+.container .top-header li a,
+.container .subtop-header li a{
+	text-decoration: none;
+}
+
+#logo{
+	padding: 8px 10px;
+	background-color: black;
+	color: white;
+}
+
+.second-item .nav-item{
+	margin-left: 20px;
+	padding: 5px 10px;
+	color: black;
+	border-bottom: 1px solid lightgray;
+
+}
+
+.top-header-item .nav-item{
+	padding: 5px 10px;
+	color: black;
+	border-left: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+
+
+/**/
+
+/*set search box height*/
+.search-box #search{
+	height: 23px;
+}
+
+
+
+/*add under line and change text color with hover*/
+.top-header .nav-item:hover{
+	text-decoration: underline;
+}
+
+
+/*set subtop-header even width and background color*/
+.subtop-header li{
+	width: 20%;
+	padding: 10px 10px;
+	display:inline-block; /* important*/
+	background-color: #282f54;
+	text-orientation: center;
+	text-align: center;
+
+}
+
+.subtop-header .nav-item{
+	color: #f1f1f1;
+}
+
+
+
+/*default box color*/
+.subtop-header .first-item{
+	background-color: #c0c0c0;
+}
+
+/*default text color*/
+.subtop-header .first{
+	color: #282f54;
+}
+
+/*add under line and change text color with hover*/
+.subtop-header .first-item:hover .nav-item,
+.subtop-header .subtop-header-item:hover .nav-item{
+	text-decoration: underline;
+	color: #262626;
+
+}
+
+/*change box background color r with hover*/
+.subtop-header .first-item:hover,
+.subtop-header .subtop-header-item:hover{
+	background-color: #f1f1f1;
+
+}
+
+
+/**/
+.container .subtop-header{
+  margin: 0 auto 0 auto;
+}
+
+
+/**/
+/*header*/
+
+.container-header {
+  width: 100%;
+/*  flex-direction: row;
+  justify-content: center;
+  align-items: center;*/
+  /*padding: 0 0;*/
+  background-color: #f1f1f1;
+  padding: 30px 0px; 
+  /*display: */
+}
+
+.main-header{
+  margin: 0 auto 20px auto;
+  width: 1080px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0;
+  white-space: nowrap;
+
+}
+
+.container .links a{
+	text-decoration: none;
+	color: gray;
+}
+.main-header span{
+	padding: 0 5px;
+	color: gray;
+
+}
+
+
+
+/**/
+.container-content p{
+  margin: 20px auto;
+  width: 1080px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0;
+
+
+}
+
+
+.container .images-part{
+  margin: 20px auto;
+  width: 1080px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.books{
+  padding: 0 20px;
+  margin: 10px 0px 50px 0px;
+  display: flex;
+
+
+}
+
+.intros{
+	margin: 0 20px;
+	padding: 0 100px 0 20px;
+}
+
+.books p{
+	margin: 0 auto 30px auto;
+}
+
+.download-btn{
+  width: 90px;
+  height: 50px;
+  text-decoration: none;
+  margin: 20px 0px auto 0px; 
+  padding: 18px 16px;
+  background-color: blue;
+  color: #f1f1f1;
+
+}
+
+
+.container .footer-header{
+  margin: 0 auto 20px auto;
+  width: 1080px;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+  align-items: center;
+  padding: 0 0;
+  white-space: nowrap;
+}
+
+.footer-header .nav-item{
+	padding: 0px 10px;
+	color: white;
+	text-decoration: none;
+
+}
+
+.footer-header .nav-item2{
+	border-right: 1px solid white;
+}
+
+
+footer{
+	padding:20px 0;
+	width: 100%;
+	margin: 0 0;
+    background-color: black;
+
+}
+.footer-container{
+
+
+}
+
+
+.container .social-media{
+  margin: 0 auto 20px auto;
+  width: 1080px;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center;*/
+  align-items: center;
+  padding: 0 0;
+  white-space: nowrap;
+}
+
+.social-media {
+  display: flex;
+  padding: 20px 0px 20px 0px;
+}
+
+.social-media a {
+  color: #f1f1f1;
+  font-size: 18px;
+}
+
+.social-media div:hover {
+  cursor: pointer;
+}
+
+.social-media .fa {
+  font-size: 16px;
+}
+
+.icons {
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+}
+
+.twitter {
+  background-color: #38A1F3;
+}
+
+.linkedin {
+  background-color: #0077B5;
+}
+
+.facebook {
+  background-color: #3B5998 ;
+}
+
+.youtube {
+  background-color: #C4302B;
+}
+
+.disclaimer p{
+	color: white;
+}
+
+.container .disclaimer{
+  margin: 0 auto 20px auto;
+  width: 1080px;
+  flex-direction: row;
+  /*justify-content: center;*/
+  align-items: center;
+  padding: 0 0;
+  white-space: nowrap;
+}
+
