@@ -319,6 +319,11 @@ body{
   white-space: nowrap;
 }
 
+/*add under line and change text color with hover*/
+.footer-header .nav-item:hover{
+  text-decoration: underline;
+}
+
 .footer-header .nav-item2{
 	padding: 0px 10px;
 	color: white;
